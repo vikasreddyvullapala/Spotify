@@ -1,0 +1,186 @@
+.div-left{
+  width: 20%;
+  height: 100%;
+  
+  background-color: rgba(0, 0, 0, 0.492);
+  overflow: hidden;
+  
+}
+.font600{
+  font-weight: 600;
+}
+body{
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+ 
+
+}
+.div-right{
+  width: 80%;
+  height:auto;
+  overflow-y: auto;
+  max-height: 100vh;
+
+}
+.div-right::-webkit-scrollbar{
+  width: 5px;
+}
+::-webkit-scrollbar-track{
+  background-color: rgb(0, 0, 0);
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: rgba(73, 176, 80, 0.721);
+  border-radius: 20px;
+}
+
+
+.navbar{
+  border-top-left-radius: 0.5rem ;
+  border-top-right-radius: 0.5rem ;
+  background-color: rgba(0, 0, 0, 0.492);
+  
+}
+.first,.second
+{
+  display:flex;
+  flex-wrap:nowrap ;
+  flex-grow: 1;justify-content: space-evenly;
+
+}
+.small{
+  color: grey;
+}
+.small:hover{
+  text-decoration: underline;
+}
+.d-flex{
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-shrink:1 ;
+}
+
+
+.card{
+  
+  width: 20%;
+  height: 23rem;
+  color: aliceblue;
+  background-color: rgba(6, 6, 6, 0);
+  margin: 0rem 0.5rem;
+  padding: 1rem;
+  border: none;
+}
+.bg-lightdark{
+  margin: 1px;
+  background-color: rgba(50, 49, 49, 0.641);
+}
+.bg-lightdark:hover{
+  margin: 1px;
+  background-color: rgba(106, 103, 103, 0.641);
+}
+h2{
+  color: white;
+  font-weight: 600;
+  margin-top: 3rem;
+  margin-left: 0.5rem;
+}
+.div-left-middle{
+  overflow-y: auto;
+  max-height: 15rem;
+}
+.div-left-middle::-webkit-scrollbar{
+  width:6px;
+}
+::-webkit-scrollbar-track{
+  background-color: rgb(0, 0, 0);
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: rgba(66, 163, 79, 0.741);
+}
+a{
+  text-decoration: none;
+  color: aliceblue;
+  
+}
+.imgheight{
+  width: 100%;
+  height: auto;
+  aspect-ratio: 2/3;
+  object-fit: cover;
+}
+.imgheightsm{
+  width: 100%;
+  height: auto;
+  aspect-ratio: 2/2;
+  object-fit:cover;
+}
+.bgblack{
+  
+  background-color: rgba(43, 41, 41, 0.522);
+}
+.div-sub1,.div-sub2{
+  
+  background-color: rgba(43, 41, 41, 0.948);
+  
+}
+.left-bottom{
+
+
+  background-color: rgba(43, 41, 41, 0.522);
+  height: 100vh;
+  overflow: hidden;
+}
+.div-bottom>span{
+  margin: 0.5rem;
+  font-size: small;
+  color: rgb(161, 156, 156);
+}
+.div-bottom>span:hover{
+  text-decoration: underline;
+  cursor:pointer;
+}
+.left-top{
+height: 20vh;
+}
+.grey{
+  color: grey;
+}
+.grey:hover{
+  color: white;
+}
+.card:hover{
+  background: rgba(7, 7, 7, 0.523);
+
+  transition: 0.7s;
+}
+.card>h6{
+  margin-bottom: 1rem;
+}
+.card>a{
+  margin: 0.3rem;
+}
+.text-end{
+  font-size: medium;
+  font-weight: 300;
+  text-align: right;
+  
+}
+
+.play{
+  position: absolute;
+  left: 70%;
+  top: 60%;
+  font-size:3.5rem;
+}
+.playicon{
+  display: none;
+}
+.card:hover .playicon{
+  
+  display: block;
+}
